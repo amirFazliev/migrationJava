@@ -7,6 +7,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 
 @Configuration
 public class WebConfig {
+
   @Bean
   public RequestMappingHandlerAdapter requestMappingHandlerAdapter() {
     final var bean = new RequestMappingHandlerAdapter();
