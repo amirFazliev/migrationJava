@@ -4,6 +4,7 @@ public class Post {
   private long id;
   private String content;
 
+
   public Post() {
   }
 
